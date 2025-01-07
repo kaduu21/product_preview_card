@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", serif;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+div div img{
+    width: 290px;
+}
+
+p{
+    font-size: 15px;
+}
+
+span{
+    color: hsl(158, 36%, 37%);
+}
+
+a{
+    text-decoration: none;
+    color: hsl(158, 36%, 37%);
+}
+
+div div a{
+    text-decoration: none;
+    color: hsl(30, 38%, 92%);
+}
+
+span{
+    font-size: 25px;
+}
+
+.small{
+    font-size: 15px;
+}
+
+.flex{
+    display: inline-flex;
+}
+
+.space{
+    padding: 40px;
+}
+
+.img-border{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card{
+    border-radius: 10px;
+    width: 590px;
+    height: 434px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.mt{
+    margin-top: 22px;
+}
+
+.mb{
+    margin-bottom: 25px;
+}
+
+.white-bg{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: hsl(158, 37%, 28%);
+    padding: 17px;
+}
